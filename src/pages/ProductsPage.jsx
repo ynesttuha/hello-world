@@ -1,8 +1,8 @@
 import { gql, useQuery } from "@apollo/client";
 import { Page, Layout, Banner, Card } from "@shopify/polaris";
 import { Loading } from "@shopify/app-bridge-react";
-import { ProductsList } from "./ProductsList";
-import { ApplyRandomPrices } from "./ApplyRandomPrices";
+import { ProductsList } from "../components/ProductsList";
+import { ApplyRandomPrices } from "../components/ApplyRandomPrices";
 
 // GraphQL query to retrieve products by IDs.
 // The price field belongs to the variants object because
